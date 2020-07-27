@@ -1,0 +1,5 @@
+@mixin mq-med {
+  @media (min-width: 700px) {
+    @content;
+  }
+}

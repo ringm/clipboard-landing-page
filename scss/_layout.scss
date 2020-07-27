@@ -8,9 +8,24 @@
     text-align: center;
 }
 
-header {
+.header {
     display: flex;
     align-items: center;
+
+    &__content {
+        max-width: 50rem;
+    }
 }
 
+.row {
+    @include mq-med {
+        display: flex;
+        align-items: center;
+    }
 
+    &>* {
+        @include mq-med {
+            width: 50%;
+        }
+    }
+}
