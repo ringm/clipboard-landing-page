@@ -87,6 +87,11 @@ p {
 .header__paragraph {
   margin-bottom: 6rem;
 }
+@media (min-width: 700px) {
+  .header {
+    min-height: 65vh;
+  }
+}
 
 .section__paragraph {
   margin-bottom: 8rem;
