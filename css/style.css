@@ -89,7 +89,8 @@ p {
 }
 @media (min-width: 700px) {
   .header {
-    min-height: 65vh;
+    min-height: auto;
+    margin-bottom: 10rem;
   }
 }
 
